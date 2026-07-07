@@ -1,0 +1,4 @@
+interface:
+  display_name: "Penny Business"
+  short_description: "Business-domain guidance for Penny tests and coverage."
+  default_prompt: "Use penny-business to design business-readable Penny test coverage."

@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+coverage/
+
+# Playwright and report artifacts
+artifacts/**
+test-results/
+playwright-report/
+blob-report/
+allure-results/
+allure-report/
+
+# Keep optional placeholders if they are added later
+!artifacts/.gitkeep
+!artifacts/**/.gitkeep
+
+# Auth storage states contain bearer tokens
+.auth/*
+!.auth/.gitkeep
+
+# Environment files contain secrets
+.env
+.env.*
+!.env.example
+
+# Per-client credential files contain secrets
+src/config/clients/**/*.env
+!src/config/clients/**/*.env.example
+
+# Logs and local caches
+*.log
+logs/
+.eslintcache
+.cache/
+.nyc_output/
+
+# Editor and OS files
+.claude/settings.local.json
+.vscode/settings.json
+.idea/
+.DS_Store
+__MACOSX/
+Thumbs.db

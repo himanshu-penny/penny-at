@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Penny Utility Script"
+  short_description: "Create safe Penny framework utility scripts."
+  default_prompt: "Use penny-create-utility-script to create or improve a Penny framework utility script."

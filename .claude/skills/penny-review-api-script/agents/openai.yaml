@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Penny API Script"
+  short_description: "Review Penny API test scripts and framework changes."
+  default_prompt: "Use penny-review-api-script to review my changed Penny API test scripts."

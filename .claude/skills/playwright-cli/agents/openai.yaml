@@ -1,0 +1,4 @@
+interface:
+  display_name: "Playwright CLI"
+  short_description: "Command guide for running Penny Playwright tests locally."
+  default_prompt: "Use playwright-cli to run or debug Penny Playwright tests."

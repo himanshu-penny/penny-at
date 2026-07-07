@@ -1,0 +1,4 @@
+interface:
+  display_name: "Penny API SDET"
+  short_description: "Reference for Penny API Playwright framework patterns."
+  default_prompt: "Use penny-api-sdet to design or update a Penny API test."

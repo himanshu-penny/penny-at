@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Penny API Script"
+  short_description: "Create API-focused Penny Playwright test scripts."
+  default_prompt: "Use penny-create-api-script to create a new Penny API test script."

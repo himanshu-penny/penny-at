@@ -617,7 +617,9 @@ export function httpStatusFailureHints(
   }
 
   if (expectedStatus && expectedStatus >= 400 && actualStatus >= 200 && actualStatus < 300) {
-    hints.push("This negative check expected the system to reject the action, but it was accepted.");
+    hints.push(
+      "This negative check expected the system to reject the action, but it was accepted.",
+    );
   }
 
   const actualGuide = getHttpStatusGuide(actualStatus);
